@@ -23,10 +23,7 @@ public class Main {
 		u = cevre / 2;
 		
 		double alan = Math.sqrt(u * (u-a) * (u-b) * (u-c)); //üçgen alan hesabı
-		System.out.println("Üçgenin alanı: " +alan);
-		
-				
+		System.out.println("Üçgenin alanı: " +alan);			
 		
 	}
-
 }
