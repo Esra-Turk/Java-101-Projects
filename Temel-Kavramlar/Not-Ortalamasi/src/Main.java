@@ -26,12 +26,11 @@ public class Main {
 
 		int toplamPuan = matematik +fizik + kimya + turkce + tarih + muzik;
 		double ortalama = toplamPuan / 6;
-		System.out.println("Dönem sonu ortalamanız:" +ortalama);
 		
 		String gecmeSekli = (ortalama >= 60)? "Sınıfı Geçti ": "Sınıfta Kaldı";
+		
+		System.out.println("Dönem sonu ortalamanız:" +ortalama);
 		System.out.print(gecmeSekli+"niz");
 		
-
 	}
-
 }
