@@ -14,7 +14,7 @@ public class Main {
 		int aci = input.nextInt();
 		
 		cevre = (float) (2 * PI * yaricap); //dairenin çevresini hesaplama
-		alan = (float) (PI * (yaricap * yaricap ) * aci) / 360; //dairenin alanını hesaplama
+		alan = (float) (PI * (yaricap * yaricap ) * aci) / 360; //daire diliminin alanını hesaplama
 		
 		System.out.println("Dairenin çevresi: " +cevre);
 		System.out.println("Dairenin alanı: " +alan);
