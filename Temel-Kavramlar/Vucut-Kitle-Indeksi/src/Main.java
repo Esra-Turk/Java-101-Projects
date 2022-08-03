@@ -14,12 +14,7 @@ public class Main {
 		
 		//vücut kitle indeksi hesaplama
 		vki = kilo / (boy * boy); 
-		System.out.println("Vücut Kitle İndeksiniz: " +vki);
-		
-		
-		
-		
-		
-		
+		System.out.println("Vücut Kitle İndeksiniz: " +vki);	
+	
 	}
 }
