@@ -17,14 +17,6 @@ public class Main {
 		alan = (float) (PI * (yaricap * yaricap ) * aci) / 360; //daire diliminin alanını hesaplama
 		
 		System.out.println("Dairenin çevresi: " +cevre);
-		System.out.println("Dairenin alanı: " +alan);
-
-		
-		
-		
-		
-		
-		
+		System.out.println("Dairenin alanı: " +alan);		
 	}
-
 }
