@@ -6,15 +6,15 @@ public class Main {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Boyunuz(metre): ");
+		System.out.print("Lütfen boyunuzu (metre cinsinden) giriniz: ");
 		boy = input.nextFloat();
 		
-		System.out.print("Kilonuz(kg): ");
+		System.out.print("Lütfen kilonuzu(kg) giriniz: ");
 		kilo = input.nextFloat();
 		
 		//vücut kitle indeksi hesaplama
 		vki = kilo / (boy * boy); 
-		System.out.println("Vücut kitle indeksiniz: " +vki);
+		System.out.println("Vücut Kitle İndeksiniz: " +vki);
 		
 		
 		
