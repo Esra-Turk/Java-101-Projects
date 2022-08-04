@@ -24,6 +24,10 @@ Lütfen geçerli işlem giriniz
 4.bölme
 ```
 
+<<<<<<< HEAD
 ##SOURCE
+=======
+## SOURCE
+>>>>>>> 90650c3c06a402855bd24a6cb180365260bf01a1
 
 [Patika.dev](https://www.patika.dev/tr)
