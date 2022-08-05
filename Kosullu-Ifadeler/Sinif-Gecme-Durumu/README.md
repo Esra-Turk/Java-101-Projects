@@ -17,8 +17,7 @@ Kimya notunuzu giriniz: -10
 Müzik notunuzu giriniz:-1000
 Türkçe notunuzu giriniz: 1223
 Sınıfta kaldınız.
-Ortalamanız: 0.0
-
+Ortalamanız: 0.0 
 
 ```
 
@@ -28,8 +27,8 @@ Fizik notunuzu giriniz: 56
 Kimya notunuzu giriniz: 45
 Müzik notunuzu giriniz:100
 Türkçe notunuzu giriniz: -1
-Sınıfı geçtiniz.Ortalamanız: 62.0
-
+Sınıfta kaldınız.
+Ortalamanız: 50.0
 ```
 
 ## SOURCE
