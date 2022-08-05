@@ -40,8 +40,7 @@ public class Main {
 		else
 			System.out.println("Sınıfta kaldınız.");
 			
-		System.out.println("Ortalamanız: " + ortalama);
-		
+		System.out.println("Ortalamanız: " + ortalama);	
 	}	
 }
 
