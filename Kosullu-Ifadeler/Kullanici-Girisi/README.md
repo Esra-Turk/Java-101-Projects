@@ -25,3 +25,4 @@ Lütfen tekrar deneyiniz
 
 ## SOURCE
 [Patika.dev](https://www.patika.dev/tr)
+
