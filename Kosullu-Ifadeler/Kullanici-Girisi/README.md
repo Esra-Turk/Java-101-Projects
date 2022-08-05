@@ -1,36 +1,28 @@
-# Sınıf Geçme Durumu Programı
+# Kullanıcı Girişi Pratiği
 
-Dersler : Matematik, Fizik, Türkçe, Kimya, Müzik
+##### Java Koşullu ifadeler ile kullanıcı adı ve şifreyi kontrol eden program
 
-Geçme Notu : 55
+Kullanıcı adı yanlış girildiğinde kullanıcı bulunamadı uyarısı yapılır.
 
-5 dersin ortalaması hesaplanır ve kontrol sağlanır.
+Eğer şifre yanlış ise kullanıcıya şifresini sıfırlayıp sıfırlamayacağı sorulur.
+Eğer kullanıcı sıfırlamak isterse yeni girdiği şifrenin hatalı girdiği ve unuttuğu şifre ile aynı olmaması gerektiğini kontrol edilir.
+Kullanıcı şifreyi değiştirmek istemiyorsa 0 ile programdan çıkabilir.
 
-Eğer girilen ders notları 0 veya 100 arasında değil ise ortalamaya katılmaz.
+Şifreler aynı ise ekrana "Şifreniz eski şifrenizden farklı olmalıdır.Lütfen tekrar deneyiniz" sorun yoksa "Şifre değiştirildi" yazdırılır.
 
-Örnek çıktı:
-
-```
-Matematik notunuzu giriniz: 123
-Fizik notunuzu giriniz: 123
-Kimya notunuzu giriniz: -10
-Müzik notunuzu giriniz:-1000
-Türkçe notunuzu giriniz: 1223
-Sınıfta kaldınız.
-Ortalamanız: 0.0 
+Programın örnek çıktısı:
 
 ```
-
+Kullanıcı adınızı giriniz: Esra-Turk
+Şifreniz: 1234
+Şifreniz yanlış.Şifrenizi sıfırlamak istiyorsanız 1'e basınız.
+Cıkış yapmak istiyorsanız 0'a basınız 1
+Oluşturmak istediğiniz yeni şifrenizi giriniz: 12345
+Şifreniz eski şifrenizden farklı olmalıdır
+Lütfen tekrar deneyiniz
 ```
-Matematik notunuzu giriniz: 50
-Fizik notunuzu giriniz: 56
-Kimya notunuzu giriniz: 45
-Müzik notunuzu giriniz:100
-Türkçe notunuzu giriniz: -1
-Sınıfta kaldınız.
-Ortalamanız: 50.0
 
-```
 
 ## SOURCE
 [Patika.dev](https://www.patika.dev/tr)
+
