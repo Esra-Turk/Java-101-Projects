@@ -52,3 +52,7 @@ Doğum gününüz: 13
 Tarih bulunamadı.Doğum ayınızı 1-12 arasında giriniz.
 Burcunuz:
 `````
+
+## SOURCE
+
+[Patika.dev](https://www.patika.dev/tr)
