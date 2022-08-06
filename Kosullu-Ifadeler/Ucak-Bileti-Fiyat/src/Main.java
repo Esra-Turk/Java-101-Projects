@@ -36,10 +36,10 @@ public class Main {
 			indirimliFiyat = fiyat - indirim;
 		}
 		else {
-			indirimliFiyat = fiyat;  //24 65 yaş arası müşterilere indirim yok
+			indirimliFiyat = fiyat;  //24-65 yaş arası müşterilere indirim yok
 		}
 		
-		//bilet çift yön ise yüzde 20 indirim uygulanır.
+		//bilet çift yön ise %20 indirim uygulanır.
 		if(yolculukTipi == 2) {
 			gidisDonus = indirimliFiyat - (indirimliFiyat * 0.20);	
 			System.out.println("Gidiş dönüş biletlerinizin fiyatı:" + gidisDonus * 2);
