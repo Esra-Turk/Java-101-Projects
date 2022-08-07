@@ -20,7 +20,7 @@ Senaryo 2
 
 ```
 Yıl Giriniz : 2021
-2021 bir artık yıldır değildir!
+2021 bir artık yıl değildir!
 
 ```
 
