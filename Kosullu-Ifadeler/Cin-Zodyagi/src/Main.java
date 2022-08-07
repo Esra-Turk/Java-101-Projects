@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-		int yıl,kalan;
+		int yil,kalan;
 		String burc = "";
 		
 		Scanner input = new Scanner(System.in);
 		
 		System.out.print("Doğum Yılınızı Giriniz: ");
-		yıl = input.nextInt();
+		yil = input.nextInt();
 		
-		kalan = yıl % 12;
+		kalan = yil % 12;
 		
 		switch(kalan) {
 			case 0:
