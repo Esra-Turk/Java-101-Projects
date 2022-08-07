@@ -7,13 +7,14 @@ public class Main {
 		
 		//kullanıcıdan yıl bilgisi alınır
 		Scanner input = new Scanner(System.in);
+		
 		System.out.print("Yıl giriniz:");
 		yil = input.nextInt();
 		
 		//Artık yıl olma koşulları
 		//yil = 1800 durumunda
 		//if(true && false) || false --> false döner, artık yıl değildir
-		if((yil % 4 == 0 && yil %100 != 0) || yil % 400 == 0) {
+		if( (yil % 4 == 0 && yil %100 != 0) || yil % 400 == 0) {
 			artikYil = true;
 		}
 		else {
