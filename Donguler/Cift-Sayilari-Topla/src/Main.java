@@ -8,7 +8,7 @@ public class Main {
 		Scanner input = new Scanner(System.in);
 		
 		do {
-		System.out.print("Sayi giriniz");
+		System.out.print("Sayi giriniz:");
 		number = input.nextInt();
 		
 		if(number % 2 == 0 || number % 4 == 0)

@@ -5,10 +5,10 @@ Java döngüler ile tek bir sayı girilene kadar kullanıcıdan girişleri kabul
 **Senaryo**
 
 ```
-Sayi giriniz6
-Sayi giriniz18
-Sayi giriniz20
-Sayi giriniz1
+Sayi giriniz:6
+Sayi giriniz:18
+Sayi giriniz:20
+Sayi giriniz:1
 Sayıların toplamı: 44
 
 ```
