@@ -14,7 +14,7 @@ public class Main {
 		if(number % 2 == 0 || number % 4 == 0)
 			total += number;
 		
-		}while(number % 2 != 1);
+		} while(number % 2 == 0);
 		
 		System.out.println("Sayıların toplamı: "+total);
 		
