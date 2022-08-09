@@ -1,0 +1,1 @@
+# For Döngüsü ile Faktöriyel Hesaplama
