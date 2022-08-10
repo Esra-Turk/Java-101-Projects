@@ -1,4 +1,4 @@
-# Java ile kullanıcının girdiği değerler ile üslü sayı hesaplayan program
+# Kullanıcının girdiği değerler ile üslü sayı hesaplayan program
 
 Java ile kullanıcının girdiği değerler ile üslü sayı hesaplayan programı "For Döngüsü" kullanarak yazılmıştır.
 
