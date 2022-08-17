@@ -11,7 +11,7 @@ public class Main {
 		System.out.print("Sayı giriniz: ");
 		number = input.nextInt();
 		
-		int tempNumber = number; //sayının ilk değerinin korumak için geçici değişken oluşturuldu
+		int tempNumber = number; //sayının ilk değerini korumak için geçici değişken oluşturuldu
 		while(tempNumber != 0) {
 			tempNumber /= 10;
 			digitNumber++;	
@@ -30,7 +30,5 @@ public class Main {
 		else {
 			System.out.println(number+ " Armstrong sayı değildir");
 		}
-			
 	}
-
 }

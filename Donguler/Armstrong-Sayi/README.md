@@ -10,7 +10,7 @@ N haneli bir sayının basamaklarının n’inci üstlerinin toplamı, kendisine
 
 54748=5^5+4^5+7^5+4^5+8^5=3125+1024+16807+1024+32768=54748 Armstrong sayıdır
 
-**Senaryo**
+**Senaryolar**
 
 ```
 Sayı giriniz: 1634
