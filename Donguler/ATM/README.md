@@ -4,7 +4,7 @@ Java'da döngüler ve switch-case yapısı ile oluşturulan, kullanıcının ban
 
 **Senaryo**
 
-````
+```
 
 Kullanıcı adınızı giriniz: elif
 Şifrenizi giriniz: ertydf
