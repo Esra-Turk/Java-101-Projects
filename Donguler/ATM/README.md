@@ -5,6 +5,7 @@ Java'da döngüler ve switch-case yapısı ile oluşturulan, kullanıcının ban
 **Senaryo**
 
 ````
+
 Kullanıcı adınızı giriniz: elif
 Şifrenizi giriniz: ertydf
 Hatalı giriş tekrar deneyiniz.Tekrar deneme hakkınız: 2
@@ -44,7 +45,9 @@ Lütfen 1-4 arasında işlem giriniz.
 Lütfen yapmak istediğiniz işlemi seçiniz: 4
 Çıkış yapılıyor..
 
+
 ```
+
 
 ## SOURCE
 
