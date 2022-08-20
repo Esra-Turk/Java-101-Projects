@@ -22,4 +22,5 @@ Dizideki en küçük değer: -5
 ```
 
 ##SOURCE
+
 [Patika.dev](https://www.patika.dev/tr)
