@@ -21,17 +21,16 @@ public class Main {
 			index++;
 		}
 		
-        int large = dizi[0];
-        int least = dizi[0];
-		
-        for (int i = 0; i < dizi.length; i++){
-            if (dizi[i] >large) 
-                large = dizi[i];
+        	int large = dizi[0];
+        	int least = dizi[0];
+        	for (int i = 0; i < dizi.length; i++){
+            	if (dizi[i] >large) 
+                	large = dizi[i];
             
-            if(dizi[i] < least)
-            	least = dizi[i];   
-        }
-        System.out.println("Dizideki en büyük değer: " + large);
-        System.out.println("Dizideki en küçük değer: " + least);
+            	if(dizi[i] < least)
+            		least = dizi[i];   
+        	}
+        	System.out.println("Dizideki en büyük değer: " + large);
+        	System.out.println("Dizideki en küçük değer: " + least);
 	}
 }
