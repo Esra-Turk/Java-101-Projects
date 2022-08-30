@@ -6,7 +6,6 @@ public class Main {
 			return number;
 		
 		return fibonacci(number-1) + fibonacci(number-2);
-		
 	}
 	
 	public static void main(String[] args) {

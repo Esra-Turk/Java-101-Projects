@@ -18,3 +18,4 @@ Fibonacci serisinin kaçıncı indexi:2
 ## Source
 
 [Patika.dev](https://www.patika.dev/tr)
+
