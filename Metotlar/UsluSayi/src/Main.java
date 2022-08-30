@@ -18,19 +18,20 @@ public class Main {
 		System.out.println("Üslü Sayı Hesaplama Programı\nProgramdan çıkmak istediğinizde 0 giriniz.\n**********************************************");
 		
 		while(true) {
+			int num1, num2, result;
 			Scanner input = new Scanner(System.in);
 			
 			System.out.print("Taban değeri giriniz: ");
-			int num1 = input.nextInt();
+			num1 = input.nextInt();
 			if(num1 == 0) {
 				System.out.println("Programdan çıkılıyor..");
 				System.exit(0);
 			}
 			
 			System.out.print("Üs değerini giriniz: ");
-			int num2 = input.nextInt();
+			num2 = input.nextInt();
 			
-			int result = power(num1,num2);
+			result = power(num1,num2);
 			System.out.println("Sonuç: " +result);
 			
 		}

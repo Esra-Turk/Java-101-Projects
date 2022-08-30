@@ -1,6 +1,6 @@
 # Recursive Metot ile Üslü Sayı Hesaplama
 
-Java'da taban ve üs değerleri kullanıcıdan alınan üs alma işlemini Recursive Metot kullanarak yapan program
+Java'da taban ve üs değerlerini kullanıcıdan alan üs alma işlemini Recursive Metot kullanarak yapan program
 
 **Senaryo**
 
