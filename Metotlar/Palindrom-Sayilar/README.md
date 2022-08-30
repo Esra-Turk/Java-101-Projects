@@ -1,6 +1,6 @@
 # PALİNDROM SAYILAR
 
-##Java ile bir sayının "Palindrom Sayı" olup olmadığını bulan program
+## Java ile bir sayının "Palindrom Sayı" olup olmadığını bulan program
 
 Palindromik sayı, iki taraftan okunduğu zaman okunuş yönüyle aynı olan sayılardır.
 
