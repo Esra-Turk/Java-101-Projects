@@ -1,6 +1,6 @@
 # Gelişmiş Hesap Makinesi
 
-Java'da metotlar ile toplama, çıkarma, çarpma, bölme işlemi, üslü sayı ve faktoriyel hesaplama, mod alma, dikdörtgen alan ve çevre hesaplama işlemleri hesap makinesi programı
+Java'da metotlar ile toplama, çıkarma, çarpma, bölme işlemi, üslü sayı ve faktoriyel hesaplama, mod alma, dikdörtgen alan ve çevre hesaplama işlemleri yapan hesap makinesi programı
 
 **Senaryo**
 
