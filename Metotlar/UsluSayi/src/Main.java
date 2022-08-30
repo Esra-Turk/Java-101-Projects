@@ -3,10 +3,6 @@ import java.util.Scanner;
 public class Main {
 	
 	static int power(int taban,int us) {
-		//üs 1 olduğunda sonuç taban sayıdır
-		if(us == 1) 
-			return taban;
-		
 		//üs sıfırsa sonuç 1'dir
 		if(us == 0)
 			return 1;
