@@ -1,4 +1,3 @@
-
 public class Student {
 	String name,stuNo;
 	int classes; //öğrencinin sınıfı
@@ -23,7 +22,7 @@ public class Student {
 		this.isPass = false;
 	}
 	
-
+	
 	public void addBulkExamNote(int note1, int note2, int note3) {
 		if(note1 >= 0 && note1 <= 100);
 			this.c1.note = note1;
@@ -31,8 +30,8 @@ public class Student {
 			this.c2.note = note2;
 		if(note3 >= 0 && note3 <= 100);
 			this.c3.note = note3;
-		
 	}
+	
 	public void addFinalGradeNote(int finalGrade1, int finalGrade2, int finalGrade3) {
 		if(finalGrade1 >= 0 && finalGrade1 <= 100)
 			this.c1.finalGrade = finalGrade1;
@@ -40,7 +39,6 @@ public class Student {
 			this.c2.finalGrade = finalGrade2;
 		if(finalGrade3 >= 0 && finalGrade3 <= 100)
 			this.c3.finalGrade = finalGrade3;
-	
 	}
 	
 	public void calsAvarage() {
@@ -52,7 +50,6 @@ public class Student {
 		this.avarage = (avarage1 + avarage2 + avarage3) / 3.0;
 	}
 	
-	
 	public void isPass() {
 		calsAvarage();
 		if(this.avarage >= 55) {
@@ -63,7 +60,6 @@ public class Student {
 		}
 		
 		printNote();
-		
 	}
 	
 	public void printNote() {

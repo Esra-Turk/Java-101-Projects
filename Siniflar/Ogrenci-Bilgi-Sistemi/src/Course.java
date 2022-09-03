@@ -1,4 +1,3 @@
-
 public class Course {
 	Teacher courseTeacher;
 	String name;
@@ -26,7 +25,6 @@ public class Course {
 	}
 	
 	public void printTeacher() {
-		this.courseTeacher.print();
-		
+		this.courseTeacher.print();	
 	}
 }

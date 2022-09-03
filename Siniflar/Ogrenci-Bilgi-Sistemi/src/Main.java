@@ -31,9 +31,5 @@ public class Main {
 		s3.addBulkExamNote(90, 50, 78);
 		s3.addFinalGradeNote(100,55,85);
 		s3.isPass();
-		
-		
 	}
-
-
 }

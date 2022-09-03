@@ -1,4 +1,3 @@
-
 public class Teacher {
 	String name;
 	String branch;
