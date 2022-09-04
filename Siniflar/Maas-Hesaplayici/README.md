@@ -35,7 +35,7 @@ Employee Sınıfının Metotları
 
 - printWorker() : Çalışana ait bilgileri ekrana bastırır.
 
-** Senaryo **
+**Senaryo**
 
 ```
 **********Çalışan Bilgileri**********
