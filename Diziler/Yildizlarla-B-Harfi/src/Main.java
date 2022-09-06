@@ -17,11 +17,11 @@ public class Main {
 			}
 		}
 		
-        for (String[] row : array){
-            for (String col : row){
-                System.out.print(col);
-            }
-            System.out.println();
-        }
+        	for (String[] row : array){
+            		for (String col : row){
+                	System.out.print(col);
+            	}
+           	 System.out.println();
+        	}
 	}
 }
