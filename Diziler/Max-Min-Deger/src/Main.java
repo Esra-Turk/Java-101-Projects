@@ -13,14 +13,14 @@ public class Main {
 		//önce dizi sıralanır
 		Arrays.sort(array);
 		
-		for(int i = 0; i <= array.length; i++) {
+		for(int i = 0; i < array.length; i++) {
 			if(array[i] > number) {
 				System.out.println("Girilen sayıdan küçük en yakın sayı: " + array[i-1]);
 				break;
 			}
 		}
 		
-		for(int j = 0; j <= array.length; j++) {
+		for(int j = 0; j <  array.length; j++) {
 			if(array[j] > number) {
 				System.out.println("Girilen sayıdan büyük en yakın sayı: " + array[j]);
 				break;	
