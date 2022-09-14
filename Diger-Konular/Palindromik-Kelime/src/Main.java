@@ -3,7 +3,7 @@ import java.util.*;
 public class Main {
 	public static boolean isPalindrom(String str) {
         String reverse = "";
-        //Kullanıcının girdiği büyük harfler üçük harfe dönüştürülür.
+        //Kullanıcının girdiği büyük harfler küçük harfe dönüştürülür.
         String word = str.toLowerCase();
         
         for (int i = word.length() - 1; i >= 0; i--) {
