@@ -3,7 +3,6 @@ public class Fighter {
     int damage;
     int health;
     int weight;
-    double chance;
     double dodge;
 
     public Fighter(String name, int damage, int health, int weight, double dodge) {
@@ -12,21 +11,8 @@ public class Fighter {
         this.health = health;
         this.weight = weight;
         this.dodge = dodge;
-        this.chance = 0;
     }
 
-   
-    public int firstHit(Fighter foe) {
-    	chance();
-        if(foe.chance > 0 && foe.chance <= 5) {
-        	return 1;
-        }
-        if(foe.chance > 5 && foe.chance <= 10){
-        	return 2;
-    }
-		return 0;
-    }
-   
     public int hit(Fighter foe) {
         System.out.println("------------");
         System.out.println(this.name + " => " + foe.name + " " +  this.damage + " hasar vurdu.");
@@ -45,11 +31,5 @@ public class Fighter {
     public boolean dodge() {
         double randomValue = Math.random() * 100;  //0.0 to 99.9
         return randomValue <= this.dodge;
-    }
-    
-    public void chance() {
-    	double randomValue = Math.random() * 10;
-		this.chance = (int) randomValue;
-    	
     }
 }

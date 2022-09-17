@@ -3,9 +3,6 @@ public class Ring {
     Fighter f2;
     int minWeight;
     int maxWeight;
-    Fighter first;
-    int a;
-    int b;
 
     public Ring(Fighter f1, Fighter f2, int minWeight, int maxWeight) {
         this.f1 = f1;
@@ -18,23 +15,24 @@ public class Ring {
 
         if (checkWeight()) {
             while (f1.health > 0 && f2.health > 0) {
-                System.out.println("======== YENİ ROUND ===========");
-                this.a = first.firstHit(f1);
-                this.b = first.firstHit(f2);
-                
-                if(a < b) {
-                    f2.health = f1.hit(f2);
+            	System.out.println("======== YENİ ROUND ===========");
+                int chance = (int) (Math.random() * 10);
+                System.out.println("Şans : "+chance);
+            	if(chance <= 5) {
+                     f2.health = f1.hit(f2);
+                     if (isWin()){
+                         break;
+                     }
+            	 }
+            	
+            	if(chance > 5) {
+                    f1.health = f2.hit(f1);
                     if (isWin()){
                         break;
-                    } 	
-                }
-                if(b > a) {
-                	  f1.health = f2.hit(f1);
-                      if (isWin()){
-                          break;
-                      }	
-                }
+                    }	
+            	}
                 printScore();
+                System.out.println();
             }
 
         } else {
